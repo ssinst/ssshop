@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a6ff4d; /* яскраво-зелений колір */
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: normal;
+    color: black;
+}
+
+p {
+    font-size: 24px;
+    color: black;
+}
+
+a {
+    color: #006400; /* темно-зелений колір */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    width: 150px;
+    height: 150px;
+    background-color: #ddd; /* заглушка для зображення */
+    border: 1px solid #000;
+}
+
+.item p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a6ff4d; /* яскраво-зелений фон */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 18px;
+}
+
+th {
+    background-color: #00FF00; /* яскраво-зелений заголовок */
+    color: black;
+}
+
+td {
+    background-color: black; /* чорні осередки */
+    color: white;
+}
+
+.available {
+    background-color: #006400; /* темно-зелений для наявності */
+}
+
+.not-available {
+    background-color: #8B0000; /* темно-червоний для відсутності */
+}
